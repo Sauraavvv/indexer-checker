@@ -1,0 +1,7 @@
+token.json
+client_secret_*.json
+*.json
+__pycache__/
+logs/
+browser_profile/
+results.xlsx
