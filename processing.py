@@ -618,6 +618,7 @@ async def run_sheets(
             channel="chrome",
             headless=False,
             viewport={"width": 1400, "height": 900},
+            args=["--no-sandbox", "--disable-gpu", "--disable-dev-shm-usage"],
         )
 
         # ── Open first sheet for canvas geometry + URL fetching ──────────
